@@ -98,20 +98,10 @@ h1,h2,h3{ font-family:var(--display); font-weight:600; margin:0; letter-spacing:
   height:76px;
 }
 .brand{ display:flex; align-items:center; gap:10px; }
-.brand__mark{
-  width:32px; height:32px; border-radius:2px;
-  background:var(--ink); color:var(--white);
-  display:flex; align-items:center; justify-content:center;
-  font-family:var(--display); font-weight:700; font-size:16px;
-}
-.brand__text{
-  font-family:var(--display); font-weight:600; font-size:16px;
-  letter-spacing:.04em;
-  display:flex; flex-direction:column; line-height:1;
-}
-.brand__sub{
-  font-family:var(--mono); font-weight:400; font-size:9px;
-  letter-spacing:.22em; color:var(--grey); margin-top:4px;
+.brand__logo{
+  height:40px;
+  width:auto;
+  display:block;
 }
 .nav__links{ display:flex; gap:36px; }
 .nav__links a{
@@ -378,6 +368,7 @@ h1,h2,h3{ font-family:var(--display); font-weight:600; margin:0; letter-spacing:
   display:flex; justify-content:space-between; gap:40px; flex-wrap:wrap;
   padding-bottom:48px;
 }
+.footer__logo{ height:36px; width:auto; display:block; }
 .footer__brand p{ color:var(--grey); font-size:14px; margin:14px 0 0; }
 .footer__cols{ display:flex; gap:64px; }
 .footer__head{

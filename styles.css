@@ -95,11 +95,11 @@ h1,h2,h3{ font-family:var(--display); font-weight:600; margin:0; letter-spacing:
 }
 .nav__inner{
   display:flex; align-items:center; justify-content:space-between;
-  height:76px;
+  height:96px;
 }
 .brand{ display:flex; align-items:center; gap:10px; }
 .brand__logo{
-  height:40px;
+  height:64px;
   width:auto;
   display:block;
 }
@@ -368,7 +368,7 @@ h1,h2,h3{ font-family:var(--display); font-weight:600; margin:0; letter-spacing:
   display:flex; justify-content:space-between; gap:40px; flex-wrap:wrap;
   padding-bottom:48px;
 }
-.footer__logo{ height:36px; width:auto; display:block; }
+.footer__logo{ height:52px; width:auto; display:block; }
 .footer__brand p{ color:var(--grey); font-size:14px; margin:14px 0 0; }
 .footer__cols{ display:flex; gap:64px; }
 .footer__head{

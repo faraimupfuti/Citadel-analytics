@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Citadel Analytics — ML Fraud Detection for Financial Institutions</title>
+<meta name="description" content="Citadel Analytics helps banks, insurers, and payment providers detect fraud in real time with machine learning built for regulated financial institutions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="top">
+  <div class="wrap nav__inner">
+    <a href="#top" class="brand">
+      <span class="brand__mark">C</span>
+      <span class="brand__text">CITADEL<span class="brand__sub">ANALYTICS</span></span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#how-it-works">How it works</a>
+      <a href="#industries">Industries</a>
+      <a href="#security">Security</a>
+      <a href="#contact">Company</a>
+    </nav>
+    <a href="#contact" class="btn btn--dark btn--sm nav__cta">Request a demo</a>
+    <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav__mobile" id="navMobile">
+    <a href="#how-it-works">How it works</a>
+    <a href="#industries">Industries</a>
+    <a href="#security">Security</a>
+    <a href="#contact">Company</a>
+    <a href="#contact" class="btn btn--dark btn--sm">Request a demo</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero__copy reveal">
+      <p class="eyebrow">ML fraud detection for financial institutions</p>
+      <h1 class="hero__headline">Stop fraud<br> before it clears.</h1>
+      <p class="hero__sub">Citadel Analytics gives banks, insurers, and payment providers a machine learning layer that scores every transaction and claim in real time — catching what rules-based systems miss, without slowing down the customers you trust.</p>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--dark">Request a demo</a>
+        <a href="#how-it-works" class="btn btn--ghost">See how it works</a>
+      </div>
+    </div>
+
+    <div class="hero__visual reveal" aria-hidden="true">
+      <div class="ledger">
+        <div class="ledger__head">
+          <span class="ledger__dot"></span>
+          <span>LIVE SCORING</span>
+        </div>
+        <div class="ledger__rows" id="ledgerRows"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats wrap reveal">
+    <div class="stats__item">
+      <p class="stats__num">&lt;100ms</p>
+      <p class="stats__label">average scoring latency per event</p>
+    </div>
+    <div class="stats__item">
+      <p class="stats__num">24 / 7</p>
+      <p class="stats__label">continuous model monitoring &amp; retraining</p>
+    </div>
+    <div class="stats__item">
+      <p class="stats__num">Banks · Insurers · Processors</p>
+      <p class="stats__label">built for regulated financial institutions</p>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="problem wrap reveal">
+    <div class="problem__grid">
+      <div>
+        <p class="eyebrow">The problem</p>
+        <h2 class="h2">Fraud doesn't wait for<br>your next rule update.</h2>
+      </div>
+      <div class="problem__body">
+        <p>Static, rules-based fraud engines catch what they were built to catch — and nothing else. Fraud rings adapt in days; rule changes take months to write, test, and approve. The result is two costs at once: fraud that slips through, and legitimate customers who get declined, delayed, or flagged for a claim that was never suspicious to begin with.</p>
+        <p>Citadel replaces static thresholds with models that learn your institution's own patterns of normal and abnormal behavior — and keep learning as fraud tactics change.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how-it-works">
+    <div class="wrap">
+      <p class="eyebrow reveal">How it works</p>
+      <h2 class="h2 reveal">One pipeline, from raw event to resolved case.</h2>
+
+      <div class="pipeline">
+        <div class="pipeline__step reveal">
+          <span class="pipeline__num">01</span>
+          <h3>Ingest</h3>
+          <p>Connect transaction, account-activity, and claims data through streaming or batch pipelines — no schema rewrite required.</p>
+        </div>
+        <div class="pipeline__step reveal">
+          <span class="pipeline__num">02</span>
+          <h3>Model</h3>
+          <p>Ensemble ML models trained on your institution's historical patterns, continuously retrained as fraud tactics evolve.</p>
+        </div>
+        <div class="pipeline__step reveal">
+          <span class="pipeline__num">03</span>
+          <h3>Score</h3>
+          <p>Every event receives a real-time risk score and a plain-language reason code your team can act on immediately.</p>
+        </div>
+        <div class="pipeline__step reveal">
+          <span class="pipeline__num">04</span>
+          <h3>Act</h3>
+          <p>Route high-risk events to review, auto-hold, or block — inside the case management workflow your team already uses.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INDUSTRIES -->
+  <section class="industries wrap" id="industries">
+    <p class="eyebrow reveal">Who we work with</p>
+    <h2 class="h2 reveal">Built for the institutions fraud actually targets.</h2>
+
+    <div class="cards">
+      <div class="card reveal">
+        <h3>Retail &amp; commercial banks</h3>
+        <p>Card, wire, and account-takeover fraud detection across every channel, from the branch to the app.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Insurance carriers</h3>
+        <p>Claims fraud scoring for auto, health, and property lines — from first notice of loss onward.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Payment processors</h3>
+        <p>Merchant and transaction-level risk scoring that holds up at network scale and peak volume.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Credit unions &amp; community banks</h3>
+        <p>Enterprise-grade detection, sized and priced for lean fraud and risk teams.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECURITY -->
+  <section class="security" id="security">
+    <div class="wrap security__grid">
+      <div class="reveal">
+        <p class="eyebrow">Built for regulated institutions</p>
+        <h2 class="h2">Security your compliance team will recognize.</h2>
+        <p class="security__sub">Citadel is built to sit inside the controls your institution already operates under — not around them.</p>
+      </div>
+      <ul class="security__list reveal">
+        <li><span>Encryption in transit and at rest</span>Every event and model artifact is encrypted end to end.</li>
+        <li><span>Role-based access &amp; audit trails</span>Full logging of who saw, scored, or actioned every case.</li>
+        <li><span>VPC &amp; on-prem deployment options</span>Keep sensitive data inside your own environment.</li>
+        <li><span>Explainable by design</span>Every score ships with a reason code — never a black box.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta wrap reveal" id="contact">
+    <h2 class="h2">Bring Citadel to your data.</h2>
+    <p>Every institution's fraud patterns are different. Let's look at yours.</p>
+    <a href="mailto:hello@citadelanalytics.example" class="btn btn--dark">Request a demo</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <span class="brand__text">CITADEL<span class="brand__sub">ANALYTICS</span></span>
+      <p>Fraud detection for financial institutions.</p>
+    </div>
+    <div class="footer__cols">
+      <div>
+        <p class="footer__head">Platform</p>
+        <a href="#how-it-works">How it works</a>
+        <a href="#industries">Industries</a>
+        <a href="#security">Security</a>
+      </div>
+      <div>
+        <p class="footer__head">Company</p>
+        <a href="#contact">Contact</a>
+        <a href="#top">About</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap footer__legal">
+    <p>© 2026 Citadel Analytics. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -2,8 +2,7 @@ services:
   - type: web
     name: citadel-analytics
     runtime: static
-    staticPublishPath: .
-    buildCommand: ""
+    staticPublishPath: ./
     routes:
       - type: rewrite
         source: /*
